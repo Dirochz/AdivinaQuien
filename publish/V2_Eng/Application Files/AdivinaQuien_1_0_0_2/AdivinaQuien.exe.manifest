@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="AdivinaQuien.exe" version="1.0.0.2" publicKeyToken="0c775e090165f4a4" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Duda.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="AdivinaQuien" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="AdivinaQuien.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AdivinaQuien.exe" size="3560416">
+      <assemblyIdentity name="AdivinaQuien" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>JzeFYaxfJ554IWSdtgq7WHAIqA2iSatGtGc4LVe4jos=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="AdivinaQuien.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+CM46OnHRrXZXNLMx7+U3V3iubiYL//d8hGOR13lDhU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Duda.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jfTV4a+Vu13pdiQ9MUKMOYSTdPcr/KjHCuxQZpiQxa0=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-L743C0KB\diego" issuerKeyHash="f73a8f809d6afed6119f8cbf48bb36bc9056277a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>I5Fnln5a2Buj6spiANyy4Aj3MhH3wT4YfNHttw1W9ic=</DigestValue></Reference></SignedInfo><SignatureValue>c+CQ6++qIm1qfdArO5TCu0AZSuaQW8ras6KtOKIzRYe8APyzWhy71my2Iouh+Gv5fPrVWCk0mtv2sLc+amVVeZuD6ChHcF05ib1xSnJEl11xKsIZY3heVq7+ackAKq5ezhmOHl5UN8/Am+6p+ySk3D/YoV0GglEPLz0OhEK02es=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ohQUi0lPr8plVxScmZ8NGBZuouDYWK5ri2+0MH83RltBdP4xLkds1Oqt/uXOYf18sgj5JoI0id5PKUjajuEmY2kAThr7Jhp3oledjvMc87C47BgWjOhd99FJcKJJxy8Gvx1/2mKfVsjN+V4/Eec8mCS8HfM0CAHzKlBmRLOs9T0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="27f6560db7edd17c183ec1f71132f708e0b2dc0062caeaa31bd85a7e96679123" Description="" Url=""><as:assemblyIdentity name="AdivinaQuien.exe" version="1.0.0.2" publicKeyToken="0c775e090165f4a4" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-L743C0KB\diego</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>XlnGE800Tbfo3GvZYoA7tTY4x09bnWkJKBH6GbumYA0=</DigestValue></Reference></SignedInfo><SignatureValue>K1z24Lnqe+BRH6guro1qTSgHoGB2mKo6lXOMyX183T4YsOsoNiflIrB3TqdrtDZIyfv59tsX8gAGXvzqlleAKFxfLtR4uqugdP1XMDFQ8Lh/G9BvCwLCbgQakHHNUjZeQr5ozDKu15sNbhwmd8lqiG0tZqdCiKFHQS0noyLjoSg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ohQUi0lPr8plVxScmZ8NGBZuouDYWK5ri2+0MH83RltBdP4xLkds1Oqt/uXOYf18sgj5JoI0id5PKUjajuEmY2kAThr7Jhp3oledjvMc87C47BgWjOhd99FJcKJJxy8Gvx1/2mKfVsjN+V4/Eec8mCS8HfM0CAHzKlBmRLOs9T0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQVX00ffOK/LhAQptLagyZCjANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQBMADcANAAzAEMAMABLAEIAXABkAGkAZQBnAG8wHhcNMjMwOTA0MjEzMzI0WhcNMjQwOTA0MDMzMzI0WjA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQBMADcANAAzAEMAMABLAEIAXABkAGkAZQBnAG8wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKIUFItJT6/KZVcUnJmfDRgWbqLg2Fiua4tvtDB/N0ZbQXT+MS5HbNTqrf7lzmH9fLII+SaCNIneTylI2o7hJmNpAE4a+yYad6JXnY7zHPOwuOwYFozoXffRSXCiSccvBr8df9pin1bIzflePxHnPJgkvB3zNAgB8ypQZkSzrPU9AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAF9f94OeHVK2wZMWCbzaZR7Xv5WOIaFuWeGY6QH92hM+dN0rwD73lWYXl31dmJ+ySnoDJ8IV8fz96WN8kwz4+RoA4f6/5D/38lPuFeGC5gA5FnBnO53oij/yNabtBFPfFG/jFKRB7E2ewPW59eA6eJ4jpHs78a/B+JdGSgdv9M68=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
