@@ -87,5 +87,25 @@ namespace AdivinaQuien.Properties {
                 return ResourceManager.GetStream("SpaceLaser", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap volumenMute {
+            get {
+                object obj = ResourceManager.GetObject("volumenMute", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap volumenUp {
+            get {
+                object obj = ResourceManager.GetObject("volumenUp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
