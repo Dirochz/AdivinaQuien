@@ -84,10 +84,38 @@
     <Compile Include="Escritorio.Designer.cs">
       <DependentUpon>Escritorio.cs</DependentUpon>
     </Compile>
+    <Compile Include="Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicio.Designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Metodos\Inicio.cs" />
+    <Compile Include="Modo\Clasico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modo\Clasico.Designer.cs">
+      <DependentUpon>Clasico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modo\Nuevo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modo\Nuevo.Designer.cs">
+      <DependentUpon>Nuevo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Escritorio.resx">
       <DependentUpon>Escritorio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modo\Clasico.resx">
+      <DependentUpon>Clasico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modo\Nuevo.resx">
+      <DependentUpon>Nuevo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -136,6 +164,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Duda.ico" />
+    <None Include="Resources\FondoAdivinaQuien.png" />
+    <None Include="Resources\PlayDesactivado.png" />
+    <None Include="Resources\Nuevo.png" />
+    <None Include="Resources\Clasico.png" />
+    <None Include="Resources\Portada.png" />
+    <None Include="Resources\REPRODUCIR-MUSICA.png" />
+    <None Include="Resources\ContraPortadaCarta.png" />
     <None Include="Resources\volumenUp.png" />
     <None Include="Resources\volumenMute.png" />
   </ItemGroup>

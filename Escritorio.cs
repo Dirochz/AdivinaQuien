@@ -11,7 +11,7 @@ namespace AdivinaQuien
     {
         private int inicio = 0;
         //private int pregunta = 0;
-        private int aviso = 0;
+        //private int aviso = 0;
         private SoundPlayer guitarra = new SoundPlayer(Properties.Resources.acustico);
         private bool musica = true;
 
@@ -34,7 +34,7 @@ namespace AdivinaQuien
                         PictureBox carta = Controls.Find("carta" + n, true).FirstOrDefault() as PictureBox;
                         if (carta != null)
                         {
-                            string rutaImagen = @"C:\AdivinaQuien\Mesa\" + n + ".jpg";
+                            string rutaImagen = @"C:\AdivinaQuien\Mesa\" + n + ".png";
                             if (System.IO.File.Exists(rutaImagen))
                             {
                                 carta.Image = System.Drawing.Image.FromFile(rutaImagen);
@@ -118,7 +118,7 @@ namespace AdivinaQuien
         {
             if (inicio == 0)
             {
-                this.cartajugador.Image = System.Drawing.Image.FromFile("C:\\AdivinaQuien\\Jugador\\1.jpg");
+                this.cartajugador.Image = System.Drawing.Image.FromFile("C:\\AdivinaQuien\\Jugador\\1.png");
                 CursorDefault();
                 this.inicio = 1;
             }
@@ -138,7 +138,7 @@ namespace AdivinaQuien
         {
             if (inicio == 0)
             {
-                this.cartajugador.Image = System.Drawing.Image.FromFile("C:\\AdivinaQuien\\Jugador\\2.jpg");
+                this.cartajugador.Image = System.Drawing.Image.FromFile("C:\\AdivinaQuien\\Jugador\\2.png");
                 CursorDefault();
                 this.inicio = 1;
             }
@@ -157,7 +157,7 @@ namespace AdivinaQuien
         {
             if (inicio == 0)
             {
-                this.cartajugador.Image = System.Drawing.Image.FromFile("C:\\AdivinaQuien\\Jugador\\3.jpg");
+                this.cartajugador.Image = System.Drawing.Image.FromFile("C:\\AdivinaQuien\\Jugador\\3.png");
                 CursorDefault();
                 this.inicio = 1;
             }
@@ -176,7 +176,7 @@ namespace AdivinaQuien
         {
             if (inicio == 0)
             {
-                this.cartajugador.Image = System.Drawing.Image.FromFile("C:\\AdivinaQuien\\Jugador\\4.jpg");
+                this.cartajugador.Image = System.Drawing.Image.FromFile("C:\\AdivinaQuien\\Jugador\\4.png");
                 CursorDefault();
                 this.inicio = 1;
             }
@@ -195,7 +195,7 @@ namespace AdivinaQuien
         {
             if (inicio == 0)
             {
-                this.cartajugador.Image = System.Drawing.Image.FromFile("C:\\AdivinaQuien\\Jugador\\5.jpg");
+                this.cartajugador.Image = System.Drawing.Image.FromFile("C:\\AdivinaQuien\\Jugador\\5.png");
                 CursorDefault();
                 this.inicio = 1;
             }
@@ -214,7 +214,7 @@ namespace AdivinaQuien
         {
             if (inicio == 0)
             {
-                this.cartajugador.Image = System.Drawing.Image.FromFile("C:\\AdivinaQuien\\Jugador\\6.jpg");
+                this.cartajugador.Image = System.Drawing.Image.FromFile("C:\\AdivinaQuien\\Jugador\\6.png");
                 CursorDefault();
                 this.inicio = 1;
             }
@@ -233,7 +233,7 @@ namespace AdivinaQuien
         {
             if (inicio == 0)
             {
-                this.cartajugador.Image = System.Drawing.Image.FromFile("C:\\AdivinaQuien\\Jugador\\7.jpg");
+                this.cartajugador.Image = System.Drawing.Image.FromFile("C:\\AdivinaQuien\\Jugador\\7.png");
                 CursorDefault();
                 this.inicio = 1;
             }
@@ -252,7 +252,7 @@ namespace AdivinaQuien
         {
             if (inicio == 0)
             {
-                this.cartajugador.Image = System.Drawing.Image.FromFile("C:\\AdivinaQuien\\Jugador\\8.jpg");
+                this.cartajugador.Image = System.Drawing.Image.FromFile("C:\\AdivinaQuien\\Jugador\\8.png");
                 CursorDefault();
                 this.inicio = 1;
             }
@@ -271,7 +271,7 @@ namespace AdivinaQuien
         {
             if (inicio == 0)
             {
-                this.cartajugador.Image = System.Drawing.Image.FromFile("C:\\AdivinaQuien\\Jugador\\9.jpg");
+                this.cartajugador.Image = System.Drawing.Image.FromFile("C:\\AdivinaQuien\\Jugador\\9.png");
                 CursorDefault();
                 this.inicio = 1;
             }
@@ -290,7 +290,7 @@ namespace AdivinaQuien
         {
             if (inicio == 0)
             {
-                this.cartajugador.Image = System.Drawing.Image.FromFile("C:\\AdivinaQuien\\Jugador\\10.jpg");
+                this.cartajugador.Image = System.Drawing.Image.FromFile("C:\\AdivinaQuien\\Jugador\\10.png");
                 CursorDefault();
                 this.inicio = 1;
             }
