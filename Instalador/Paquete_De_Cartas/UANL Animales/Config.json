@@ -1,0 +1,51 @@
+{
+    "Carta1": {
+      "nombre": "Arquitectura",
+      "Info": "El Pegaso es fruto de la imaginación del hombre, su naturaleza representa creatividad e inspiración, elementos necesarios para desarrollar la arquitectura."
+    },
+
+    "Carta2": {
+        "nombre": "Biologia",
+        "Info": "El Cacomixtle se caracteriza por su inteligencia, astucia y disciplina, cualidades que también representan a los estudiantes de Biologia"
+    },
+    
+    "Carta3": {
+        "nombre": "Civil",
+        "Info": "Civil eligió al Castor como icono por trabajar construcciones complejas, cuidando el medio ambiente y manteniendo la infraestructura de su entorno."
+    },
+
+    "Carta4": {
+        "nombre": "Criminologia",
+        "Info": "En la mitología griega, la Lechuza representa la sabiduria, la vigía incansable del derecho y la intuición, características útiles en la búsqueda de la justicia y la verdad que caracterizan a los estudiantes de Criminologia"
+    },
+
+    "Carta5": {
+        "nombre": "FACPYA",
+        "Info": "El Elefante representa la fuerza, tenacidad y productividad que caracterizan a los estudiantes de FACPYA"
+    },
+
+    "Carta6": {
+        "nombre": "Filosofia",
+        "Info": "El Unicornio representa misterio y hermosura, elementos característicos de las letras y la filosofia"
+    },
+
+    "Carta7": {
+        "nombre": "FIME",
+        "Info": "El Oso representa la fuerza, agresividad y nobleza que caracteriza a los ingenieros de FIME"
+    },
+
+    "Carta8": {
+        "nombre": "FisicoMatematico",
+        "Info": "El Bisonte fue elegido por su fortaleza, valor y sagacidad, virtudes esenciales del estudiante de Fisico Matematico."
+    },
+
+    "Carta9": {
+        "nombre": "Quimicas",
+        "Info": "Los Búhos comparten las habilidades de agudos observadores y analíticos al igual que los profesionales de esta facultad, que con sus experimentos perfeccionan el mundo que los rodea."
+    },
+
+    "Carta10": {
+        "nombre": "TrabajoSocial",
+        "Info": "Las Abejas representan la laboriosidad y el trabajo en equipo, cualidades esenciales para los egresados que serán los protectores de los ciudadanos que caracterizan a los estudiantes de TrabajoSocial"
+    }
+}
