@@ -309,6 +309,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Duda.ico" />
+    <None Include="Resources\Dado.png" />
     <None Include="Resources\Continue.jpg" />
     <None Include="Resources\We-ARE_.wav" />
     <None Include="Resources\One-Piece-OST.wav" />

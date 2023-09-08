@@ -31,12 +31,15 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inicio));
             this.Pantalla = new System.Windows.Forms.Panel();
             this.Fondo = new System.Windows.Forms.Panel();
+            this.Dado = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.Versiones = new System.Windows.Forms.ComboBox();
             this.BtnNuevo = new System.Windows.Forms.PictureBox();
             this.BtnClasico = new System.Windows.Forms.PictureBox();
             this.BtnPlay = new System.Windows.Forms.PictureBox();
+            this.Numero = new System.Windows.Forms.Label();
             this.Fondo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Dado)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnNuevo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnClasico)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnPlay)).BeginInit();
@@ -54,6 +57,8 @@
             // 
             this.Fondo.BackgroundImage = global::AdivinaQuien.Properties.Resources.Portada;
             this.Fondo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Fondo.Controls.Add(this.Numero);
+            this.Fondo.Controls.Add(this.Dado);
             this.Fondo.Controls.Add(this.label1);
             this.Fondo.Controls.Add(this.Versiones);
             this.Fondo.Controls.Add(this.BtnNuevo);
@@ -64,6 +69,19 @@
             this.Fondo.Name = "Fondo";
             this.Fondo.Size = new System.Drawing.Size(872, 593);
             this.Fondo.TabIndex = 2;
+            // 
+            // Dado
+            // 
+            this.Dado.BackColor = System.Drawing.Color.Transparent;
+            this.Dado.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Dado.Image = global::AdivinaQuien.Properties.Resources.Dado;
+            this.Dado.Location = new System.Drawing.Point(170, 103);
+            this.Dado.Name = "Dado";
+            this.Dado.Size = new System.Drawing.Size(57, 53);
+            this.Dado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Dado.TabIndex = 5;
+            this.Dado.TabStop = false;
+            this.Dado.Click += new System.EventHandler(this.Dado_Click);
             // 
             // label1
             // 
@@ -130,6 +148,17 @@
             this.BtnPlay.TabStop = false;
             this.BtnPlay.Click += new System.EventHandler(this.BtnPlay_Click);
             // 
+            // Numero
+            // 
+            this.Numero.BackColor = System.Drawing.Color.Transparent;
+            this.Numero.Font = new System.Drawing.Font("Segoe Print", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Numero.Location = new System.Drawing.Point(170, 103);
+            this.Numero.Name = "Numero";
+            this.Numero.Size = new System.Drawing.Size(57, 53);
+            this.Numero.TabIndex = 6;
+            this.Numero.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Numero.Visible = false;
+            // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -147,6 +176,7 @@
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Inicio_KeyDown);
             this.Fondo.ResumeLayout(false);
             this.Fondo.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Dado)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnNuevo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnClasico)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnPlay)).EndInit();
@@ -163,5 +193,7 @@
         private System.Windows.Forms.Panel Pantalla;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox Versiones;
+        private System.Windows.Forms.PictureBox Dado;
+        private System.Windows.Forms.Label Numero;
     }
 }

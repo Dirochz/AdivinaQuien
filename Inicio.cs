@@ -67,14 +67,18 @@ namespace AdivinaQuien
         // Botones
         private void BtnPlay_Click(object sender, EventArgs e)
         {
-            string valorSeleccionado = Versiones.SelectedItem.ToString();
-            if (!string.IsNullOrEmpty(valorSeleccionado))
+            try
             {
-                Properties.Settings.Default["version"] = valorSeleccionado;
-                Properties.Settings.Default.Save();
-                this.CargarModo();
-                this.Fondo.Hide();
+                string valorSeleccionado = Versiones.SelectedItem.ToString();
+                if (!string.IsNullOrEmpty(valorSeleccionado))
+                {
+                    Properties.Settings.Default["version"] = valorSeleccionado;
+                    Properties.Settings.Default.Save();
+                    this.CargarModo();
+                    this.Fondo.Hide();
+                }
             }
+            catch (Exception) { }
         }
 
         private void BtnClasico_Click(object sender, EventArgs e)
@@ -98,6 +102,14 @@ namespace AdivinaQuien
                 this.AbrirForm(form: new Modo.DYOV_OP());
                 this.Fondo.Hide();
             }
+        }
+
+        private void Dado_Click(object sender, EventArgs e)
+        {
+            Random random = new Random();
+            int numeroAleatorio = random.Next(1, 101);
+            Numero.Text = numeroAleatorio.ToString();
+            this.Numero.Visible = true;
         }
     }
 }
