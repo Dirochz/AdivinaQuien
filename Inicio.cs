@@ -93,7 +93,7 @@ namespace AdivinaQuien
 
         private void Inicio_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.Control && e.KeyCode == Keys.D)
+            if (e.Control && e.KeyCode == Keys.P)
             {
                 this.AbrirForm(form: new Modo.DYOV_OP());
                 this.Fondo.Hide();
