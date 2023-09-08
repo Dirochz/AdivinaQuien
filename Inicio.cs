@@ -1,6 +1,5 @@
 ﻿using System;
-using System.Reflection.Emit;
-using System.Runtime.Remoting;
+using System.IO;
 using System.Windows.Forms;
 
 namespace AdivinaQuien
@@ -8,9 +7,14 @@ namespace AdivinaQuien
     public partial class Inicio : Form
     {
         private string modo = string.Empty;
-        private Metodos.Inicio obj = new Metodos.Inicio();
+        private readonly Metodos.Inicio obj = new Metodos.Inicio();
 
-        public Inicio() { InitializeComponent(); }
+        public Inicio()
+        {
+            InitializeComponent();
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            this.Cargarcarpeta();
+        }
 
         private void AbrirForm(Form form)
         {
@@ -23,6 +27,28 @@ namespace AdivinaQuien
             formHijo.Show();
         }
 
+        private void Cargarcarpeta()
+        {
+            string rutaCarpeta = "C:\\AdivinaQuien";
+
+            if (Directory.Exists(rutaCarpeta))
+            {
+                string[] carpetas = Directory.GetDirectories(rutaCarpeta);
+                int posicionInicio = rutaCarpeta.Length + 1;
+
+                foreach (string carpeta in carpetas)
+                {
+                    string nombreCarpeta = carpeta.Substring(posicionInicio);
+                    Versiones.Items.Add(nombreCarpeta);
+                }
+                if (Versiones.Items.Count > 0) { Versiones.SelectedIndex = 0; }
+            }
+            else
+            {
+                MessageBox.Show("La carpeta especificada no existe.");
+            }
+        }
+
         public void CargarModo()
         {
             switch (modo)
@@ -32,7 +58,7 @@ namespace AdivinaQuien
                     break;
 
                 case "Nuevo":
-                    this.AbrirForm(form: new Modo.Nuevo());
+                    this.AbrirForm(form: new Modo.Version7());
                     break;
             }
         }
@@ -40,8 +66,14 @@ namespace AdivinaQuien
         // Botones
         private void BtnPlay_Click(object sender, EventArgs e)
         {
-            this.CargarModo();
-            this.Fondo.Hide();
+            string valorSeleccionado = Versiones.SelectedItem.ToString();
+            if (!string.IsNullOrEmpty(valorSeleccionado))
+            {
+                Properties.Settings.Default["version"] = valorSeleccionado;
+                Properties.Settings.Default.Save();
+                this.CargarModo();
+                this.Fondo.Hide();
+            }
         }
 
         private void BtnClasico_Click(object sender, EventArgs e)
