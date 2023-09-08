@@ -13,7 +13,7 @@
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>C:\Users\Diego\OneDrive\Programas y Proyectos\Escuela\AdivinaQuien\publish\V2_Esp\</PublishUrl>
+    <PublishUrl>C:\Users\Diego\OneDrive\Programas y Proyectos\Escuela\AdivinaQuien\publish\Setup_SOEspañol\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -24,7 +24,7 @@
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
     <PublisherName>Equipo3</PublisherName>
-    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationRevision>5</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -229,6 +229,12 @@
     <Compile Include="Metodos\General.cs" />
     <Compile Include="Metodos\Inicio.cs" />
     <Compile Include="Metodos\Version7.cs" />
+    <Compile Include="Modo\DYOV_OP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modo\DYOV_OP.Designer.cs">
+      <DependentUpon>DYOV_OP.cs</DependentUpon>
+    </Compile>
     <Compile Include="Modo\Version7.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -245,6 +251,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modo\DYOV_OP.resx">
+      <DependentUpon>DYOV_OP.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Modo\Version7.resx">
       <DependentUpon>Version7.cs</DependentUpon>
@@ -300,6 +309,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Duda.ico" />
+    <None Include="Resources\Continue.jpg" />
+    <None Include="Resources\We-ARE_.wav" />
+    <None Include="Resources\One-Piece-OST.wav" />
+    <None Include="Resources\zoro.png" />
+    <None Include="Resources\michiZoro.png" />
+    <None Include="Resources\ElCapitan y almirantes.png" />
+    <None Include="Resources\Merry.jpg" />
     <None Include="Resources\FondoClasico.png" />
     <None Include="Resources\Borrador.png" />
     <None Include="Resources\Lapiz.png" />

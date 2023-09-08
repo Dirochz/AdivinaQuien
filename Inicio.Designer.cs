@@ -89,6 +89,7 @@
             this.Versiones.Name = "Versiones";
             this.Versiones.Size = new System.Drawing.Size(167, 27);
             this.Versiones.TabIndex = 3;
+            this.Versiones.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Inicio_KeyDown);
             // 
             // BtnNuevo
             // 
@@ -143,7 +144,7 @@
             this.Name = "Inicio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Adivina Quien";
-            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Inicio_KeyPress);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Inicio_KeyDown);
             this.Fondo.ResumeLayout(false);
             this.Fondo.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BtnNuevo)).EndInit();

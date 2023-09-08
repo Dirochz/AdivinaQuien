@@ -118,70 +118,91 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Hoja" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Hoja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Clasico" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Clasico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="REPRODUCIR-MUSICA" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\REPRODUCIR-MUSICA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="volumenMute" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\volumenMute.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Nota" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Nota.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="acustico" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\acustico.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Hoja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hoja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="volumenMuteB" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\volumenMuteB.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="REPRODUCIR-MUSICA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\REPRODUCIR-MUSICA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Nuevo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Nuevo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="volumenUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\volumenUp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="CartasAdivinaQuienV2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CartasAdivinaQuienV2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Portada" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Portada.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="volumenUpB" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\volumenUpB.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PlayDesactivado" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PlayDesactivado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Lapiz" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Lapiz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Informacion" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Informacion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="volumenMute" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\volumenMute.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Afavor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Afavor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="FondoAdivinaQuienV2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FondoAdivinaQuienV2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="X" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\X.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="SpaceLaser" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SpaceLaser.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="We_ARE_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\We-ARE_.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Borrador" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Borrador.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="FondoClasico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FondoClasico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="michiZoro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\michiZoro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Afavor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Afavor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="volumenUpB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\volumenUpB.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CartasAdivinaQuienV2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CartasAdivinaQuienV2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="One_Piece_OST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\One-Piece-OST.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="volumenUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\volumenUp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FondoAdivinaQuienV2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FondoAdivinaQuienV2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Interrogacion" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Interrogacion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FondoClasico" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FondoClasico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Nuevo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nuevo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lapiz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lapiz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="acustico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\acustico.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="X" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PlayDesactivado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PlayDesactivado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Clasico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Clasico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Portada" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portada.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="volumenMuteB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\volumenMuteB.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Merry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Merry.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpaceLaser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SpaceLaser.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ElCapitan y almirantes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ElCapitan y almirantes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Informacion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Informacion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zoro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zoro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Continue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Continue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

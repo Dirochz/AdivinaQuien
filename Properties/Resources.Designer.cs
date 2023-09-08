@@ -112,6 +112,26 @@ namespace AdivinaQuien.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Continue {
+            get {
+                object obj = ResourceManager.GetObject("Continue", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ElCapitan_y_almirantes {
+            get {
+                object obj = ResourceManager.GetObject("ElCapitan y almirantes", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap FondoAdivinaQuienV2 {
             get {
                 object obj = ResourceManager.GetObject("FondoAdivinaQuienV2", resourceCulture);
@@ -172,6 +192,26 @@ namespace AdivinaQuien.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Merry {
+            get {
+                object obj = ResourceManager.GetObject("Merry", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap michiZoro {
+            get {
+                object obj = ResourceManager.GetObject("michiZoro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Nota {
             get {
                 object obj = ResourceManager.GetObject("Nota", resourceCulture);
@@ -186,6 +226,15 @@ namespace AdivinaQuien.Properties {
             get {
                 object obj = ResourceManager.GetObject("Nuevo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream One_Piece_OST {
+            get {
+                return ResourceManager.GetStream("One_Piece_OST", resourceCulture);
             }
         }
         
@@ -269,11 +318,30 @@ namespace AdivinaQuien.Properties {
         }
         
         /// <summary>
+        ///   Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream We_ARE_ {
+            get {
+                return ResourceManager.GetStream("We_ARE_", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap X {
             get {
                 object obj = ResourceManager.GetObject("X", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap zoro {
+            get {
+                object obj = ResourceManager.GetObject("zoro", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

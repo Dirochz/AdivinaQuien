@@ -91,9 +91,13 @@ namespace AdivinaQuien
             this.BtnPlay.Image = Properties.Resources.REPRODUCIR_MUSICA;
         }
 
-        private void Inicio_KeyPress(object sender, KeyPressEventArgs e)
+        private void Inicio_KeyDown(object sender, KeyEventArgs e)
         {
-
+            if (e.Control && e.KeyCode == Keys.D)
+            {
+                this.AbrirForm(form: new Modo.DYOV_OP());
+                this.Fondo.Hide();
+            }
         }
     }
 }
