@@ -122,6 +122,16 @@ namespace AdivinaQuien.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap FondoClasico {
+            get {
+                object obj = ResourceManager.GetObject("FondoClasico", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Hoja {
             get {
                 object obj = ResourceManager.GetObject("Hoja", resourceCulture);

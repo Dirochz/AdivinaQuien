@@ -10,7 +10,6 @@ namespace AdivinaQuien.Modo
 {
     public partial class Version7 : Form
     {
-        private int inicio = 0;
         private readonly SoundPlayer guitarra = new SoundPlayer(Properties.Resources.acustico);
         private readonly string baraja = Properties.Settings.Default.version;
         private readonly Metodos.General objmet = new Metodos.General();
@@ -28,6 +27,7 @@ namespace AdivinaQuien.Modo
         private bool bajar8 = false;
         private bool bajar9 = false;
         private bool bajar10 = false;
+        private int inicio = 0;
         private string Opciones = "Nada";
 
         public Version7()

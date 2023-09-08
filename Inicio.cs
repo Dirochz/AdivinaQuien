@@ -45,7 +45,8 @@ namespace AdivinaQuien
             }
             else
             {
-                MessageBox.Show("La carpeta especificada no existe.");
+                Directory.CreateDirectory(rutaCarpeta);
+                MessageBox.Show("Para poder iniciar se creara la siguiente carpeta C:\\AdivinaQuien para colocar las cartas que se usaran en el juego", "AdivinaQuien", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
@@ -88,6 +89,11 @@ namespace AdivinaQuien
             this.modo = "Nuevo";
             this.BtnPlay.Enabled = true;
             this.BtnPlay.Image = Properties.Resources.REPRODUCIR_MUSICA;
+        }
+
+        private void Inicio_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
         }
     }
 }

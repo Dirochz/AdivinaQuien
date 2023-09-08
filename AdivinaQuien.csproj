@@ -13,7 +13,7 @@
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>C:\Users\diego\source\repos\AdivinaQuien\publish\</PublishUrl>
+    <PublishUrl>C:\Users\Diego\OneDrive\Programas y Proyectos\Escuela\AdivinaQuien\publish\V2_Esp\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -300,6 +300,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Duda.ico" />
+    <None Include="Resources\FondoClasico.png" />
     <None Include="Resources\Borrador.png" />
     <None Include="Resources\Lapiz.png" />
     <None Include="Resources\X.png" />

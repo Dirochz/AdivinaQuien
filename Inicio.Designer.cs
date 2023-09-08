@@ -143,6 +143,7 @@
             this.Name = "Inicio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Adivina Quien";
+            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Inicio_KeyPress);
             this.Fondo.ResumeLayout(false);
             this.Fondo.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BtnNuevo)).EndInit();

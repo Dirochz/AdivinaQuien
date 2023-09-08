@@ -32,6 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Version7));
             this.Info = new System.Windows.Forms.ToolTip(this.components);
             this.Fondo = new System.Windows.Forms.Panel();
+            this.BtnReiniciar = new System.Windows.Forms.Button();
             this.BotonInfo = new System.Windows.Forms.PictureBox();
             this.carta7 = new System.Windows.Forms.PictureBox();
             this.carta6 = new System.Windows.Forms.PictureBox();
@@ -108,11 +109,12 @@
             this.Img1Jug3 = new System.Windows.Forms.PictureBox();
             this.Img1Jug2 = new System.Windows.Forms.PictureBox();
             this.Img1Jug1 = new System.Windows.Forms.PictureBox();
-            this.Jugador6 = new System.Windows.Forms.TextBox();
-            this.Jugador5 = new System.Windows.Forms.TextBox();
-            this.Jugador4 = new System.Windows.Forms.TextBox();
-            this.Jugador3 = new System.Windows.Forms.TextBox();
+            this.Jugador1 = new System.Windows.Forms.TextBox();
             this.Jugador2 = new System.Windows.Forms.TextBox();
+            this.Jugador3 = new System.Windows.Forms.TextBox();
+            this.Jugador4 = new System.Windows.Forms.TextBox();
+            this.Jugador5 = new System.Windows.Forms.TextBox();
+            this.Jugador6 = new System.Windows.Forms.TextBox();
             this.nota10 = new System.Windows.Forms.TextBox();
             this.nota9 = new System.Windows.Forms.TextBox();
             this.nota8 = new System.Windows.Forms.TextBox();
@@ -123,8 +125,6 @@
             this.nota3 = new System.Windows.Forms.TextBox();
             this.nota2 = new System.Windows.Forms.TextBox();
             this.nota1 = new System.Windows.Forms.TextBox();
-            this.Jugador1 = new System.Windows.Forms.TextBox();
-            this.BtnReiniciar = new System.Windows.Forms.Button();
             this.Fondo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BotonInfo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.carta7)).BeginInit();
@@ -237,6 +237,21 @@
             this.Fondo.Name = "Fondo";
             this.Fondo.Size = new System.Drawing.Size(872, 593);
             this.Fondo.TabIndex = 11;
+            // 
+            // BtnReiniciar
+            // 
+            this.BtnReiniciar.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BtnReiniciar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnReiniciar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnReiniciar.Font = new System.Drawing.Font("Consolas", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnReiniciar.ForeColor = System.Drawing.SystemColors.Control;
+            this.BtnReiniciar.Location = new System.Drawing.Point(12, 558);
+            this.BtnReiniciar.Name = "BtnReiniciar";
+            this.BtnReiniciar.Size = new System.Drawing.Size(106, 28);
+            this.BtnReiniciar.TabIndex = 16;
+            this.BtnReiniciar.Text = "Reiniciar";
+            this.BtnReiniciar.UseVisualStyleBackColor = false;
+            this.BtnReiniciar.Click += new System.EventHandler(this.BtnReiniciar_Click);
             // 
             // BotonInfo
             // 
@@ -423,7 +438,7 @@
             this.cartaJugador.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.cartaJugador.BackColor = System.Drawing.Color.Transparent;
             this.cartaJugador.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.cartaJugador.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cartaJugador.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.cartaJugador.Image = ((System.Drawing.Image)(resources.GetObject("cartaJugador.Image")));
             this.cartaJugador.Location = new System.Drawing.Point(786, 481);
             this.cartaJugador.Name = "cartaJugador";
@@ -498,11 +513,12 @@
             this.Nota.Controls.Add(this.Img1Jug3);
             this.Nota.Controls.Add(this.Img1Jug2);
             this.Nota.Controls.Add(this.Img1Jug1);
-            this.Nota.Controls.Add(this.Jugador6);
-            this.Nota.Controls.Add(this.Jugador5);
-            this.Nota.Controls.Add(this.Jugador4);
-            this.Nota.Controls.Add(this.Jugador3);
+            this.Nota.Controls.Add(this.Jugador1);
             this.Nota.Controls.Add(this.Jugador2);
+            this.Nota.Controls.Add(this.Jugador3);
+            this.Nota.Controls.Add(this.Jugador4);
+            this.Nota.Controls.Add(this.Jugador5);
+            this.Nota.Controls.Add(this.Jugador6);
             this.Nota.Controls.Add(this.nota10);
             this.Nota.Controls.Add(this.nota9);
             this.Nota.Controls.Add(this.nota8);
@@ -513,7 +529,6 @@
             this.Nota.Controls.Add(this.nota3);
             this.Nota.Controls.Add(this.nota2);
             this.Nota.Controls.Add(this.nota1);
-            this.Nota.Controls.Add(this.Jugador1);
             this.Nota.Location = new System.Drawing.Point(431, 13);
             this.Nota.Name = "Nota";
             this.Nota.Size = new System.Drawing.Size(429, 462);
@@ -1192,35 +1207,25 @@
             this.Img1Jug1.TabStop = false;
             this.Img1Jug1.Click += new System.EventHandler(this.Img1Jug1_Click);
             // 
-            // Jugador6
+            // Jugador1
             // 
-            this.Jugador6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Jugador6.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Jugador6.Location = new System.Drawing.Point(401, 37);
-            this.Jugador6.Name = "Jugador6";
-            this.Jugador6.Size = new System.Drawing.Size(61, 13);
-            this.Jugador6.TabIndex = 9;
-            this.Jugador6.TextChanged += new System.EventHandler(this.Jugador6_TextChanged);
+            this.Jugador1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Jugador1.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Jugador1.Location = new System.Drawing.Point(66, 37);
+            this.Jugador1.Name = "Jugador1";
+            this.Jugador1.Size = new System.Drawing.Size(61, 13);
+            this.Jugador1.TabIndex = 9;
+            this.Jugador1.TextChanged += new System.EventHandler(this.Jugador1_TextChanged);
             // 
-            // Jugador5
+            // Jugador2
             // 
-            this.Jugador5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Jugador5.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Jugador5.Location = new System.Drawing.Point(334, 37);
-            this.Jugador5.Name = "Jugador5";
-            this.Jugador5.Size = new System.Drawing.Size(61, 13);
-            this.Jugador5.TabIndex = 9;
-            this.Jugador5.TextChanged += new System.EventHandler(this.Jugador5_TextChanged);
-            // 
-            // Jugador4
-            // 
-            this.Jugador4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Jugador4.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Jugador4.Location = new System.Drawing.Point(267, 37);
-            this.Jugador4.Name = "Jugador4";
-            this.Jugador4.Size = new System.Drawing.Size(61, 13);
-            this.Jugador4.TabIndex = 9;
-            this.Jugador4.TextChanged += new System.EventHandler(this.Jugador4_TextChanged);
+            this.Jugador2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Jugador2.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Jugador2.Location = new System.Drawing.Point(133, 37);
+            this.Jugador2.Name = "Jugador2";
+            this.Jugador2.Size = new System.Drawing.Size(61, 13);
+            this.Jugador2.TabIndex = 9;
+            this.Jugador2.TextChanged += new System.EventHandler(this.Jugador2_TextChanged);
             // 
             // Jugador3
             // 
@@ -1232,15 +1237,35 @@
             this.Jugador3.TabIndex = 9;
             this.Jugador3.TextChanged += new System.EventHandler(this.Jugador3_TextChanged);
             // 
-            // Jugador2
+            // Jugador4
             // 
-            this.Jugador2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Jugador2.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Jugador2.Location = new System.Drawing.Point(133, 37);
-            this.Jugador2.Name = "Jugador2";
-            this.Jugador2.Size = new System.Drawing.Size(61, 13);
-            this.Jugador2.TabIndex = 9;
-            this.Jugador2.TextChanged += new System.EventHandler(this.Jugador2_TextChanged);
+            this.Jugador4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Jugador4.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Jugador4.Location = new System.Drawing.Point(267, 37);
+            this.Jugador4.Name = "Jugador4";
+            this.Jugador4.Size = new System.Drawing.Size(61, 13);
+            this.Jugador4.TabIndex = 9;
+            this.Jugador4.TextChanged += new System.EventHandler(this.Jugador4_TextChanged);
+            // 
+            // Jugador5
+            // 
+            this.Jugador5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Jugador5.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Jugador5.Location = new System.Drawing.Point(334, 37);
+            this.Jugador5.Name = "Jugador5";
+            this.Jugador5.Size = new System.Drawing.Size(61, 13);
+            this.Jugador5.TabIndex = 9;
+            this.Jugador5.TextChanged += new System.EventHandler(this.Jugador5_TextChanged);
+            // 
+            // Jugador6
+            // 
+            this.Jugador6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Jugador6.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Jugador6.Location = new System.Drawing.Point(401, 37);
+            this.Jugador6.Name = "Jugador6";
+            this.Jugador6.Size = new System.Drawing.Size(61, 13);
+            this.Jugador6.TabIndex = 9;
+            this.Jugador6.TextChanged += new System.EventHandler(this.Jugador6_TextChanged);
             // 
             // nota10
             // 
@@ -1351,31 +1376,6 @@
             this.nota1.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
             this.nota1.Size = new System.Drawing.Size(73, 13);
             this.nota1.TabIndex = 9;
-            // 
-            // Jugador1
-            // 
-            this.Jugador1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Jugador1.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Jugador1.Location = new System.Drawing.Point(66, 37);
-            this.Jugador1.Name = "Jugador1";
-            this.Jugador1.Size = new System.Drawing.Size(61, 13);
-            this.Jugador1.TabIndex = 9;
-            this.Jugador1.TextChanged += new System.EventHandler(this.Jugador1_TextChanged);
-            // 
-            // BtnReiniciar
-            // 
-            this.BtnReiniciar.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.BtnReiniciar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnReiniciar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnReiniciar.Font = new System.Drawing.Font("Consolas", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnReiniciar.ForeColor = System.Drawing.SystemColors.Control;
-            this.BtnReiniciar.Location = new System.Drawing.Point(12, 558);
-            this.BtnReiniciar.Name = "BtnReiniciar";
-            this.BtnReiniciar.Size = new System.Drawing.Size(106, 28);
-            this.BtnReiniciar.TabIndex = 16;
-            this.BtnReiniciar.Text = "Reiniciar";
-            this.BtnReiniciar.UseVisualStyleBackColor = false;
-            this.BtnReiniciar.Click += new System.EventHandler(this.BtnReiniciar_Click);
             // 
             // Version7
             // 
